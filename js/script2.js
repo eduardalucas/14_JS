@@ -43,7 +43,7 @@ function verificar(){
             }
         }
 
-        res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
+        res.innerHTML = `Detectamos ${genero} de ${idade} anos.`
         res.appendChild(img)
     }
 }
